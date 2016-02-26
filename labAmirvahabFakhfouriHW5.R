@@ -20,7 +20,7 @@ Q1.b + geom_histogram(bins=30)+ facet_grid(cut ~ .)
 ##############
 ## part c
 Q1.c<- ggplot(diamonds, aes(y = price, x = cut))  
-Q1.c+ geom_violin(alpha=1)
+Q1.c+ geom_violin(alpha=1)+geom_jitter(alpha=0.01)
 ##############
 ############################ Question 3
 ## part a
